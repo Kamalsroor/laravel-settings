@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraeast\LaravelSettings\Contracts;
+namespace KamalSroor\LaravelSettings\Contracts;
 
 use Illuminate\Foundation\Application;
 

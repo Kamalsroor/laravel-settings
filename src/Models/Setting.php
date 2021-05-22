@@ -1,10 +1,11 @@
 <?php
 
-namespace Laraeast\LaravelSettings\Models;
+namespace KamalSroor\LaravelSettings\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use AhmedAliraqi\LaravelMediaUploader\Entities\Concerns\HasUploader;
 
 class Setting extends Model implements HasMedia
 {

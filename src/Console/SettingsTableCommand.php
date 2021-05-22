@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraeast\LaravelSettings\Console;
+namespace KamalSroor\LaravelSettings\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

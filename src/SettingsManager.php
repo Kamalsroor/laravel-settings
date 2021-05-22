@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraeast\LaravelSettings;
+namespace KamalSroor\LaravelSettings;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Manager;
@@ -10,7 +10,7 @@ class SettingsManager extends Manager
     /**
      * Create an instance of the database settings driver.
      *
-     * @return \Laraeast\LaravelSettings\DatabaseSettingsHandler
+     * @return \KamalSroor\LaravelSettings\DatabaseSettingsHandler
      */
     public function createDatabaseDriver()
     {

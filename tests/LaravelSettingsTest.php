@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraeast\LaravelSettings\Tests;
+namespace KamalSroor\LaravelSettings\Tests;
 
-use Laraeast\LaravelSettings\Facades\Settings;
-use Laraeast\LaravelSettings\Models\Setting;
-use Laraeast\LaravelSettings\Providers\SettingsServiceProvider;
+use KamalSroor\LaravelSettings\Facades\Settings;
+use KamalSroor\LaravelSettings\Models\Setting;
+use KamalSroor\LaravelSettings\Providers\SettingsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class LaravelSettingsTest extends TestCase

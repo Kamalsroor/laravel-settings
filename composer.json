@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Laraeast\\LaravelSettings\\": "src/"
+            "KamalSroor\\LaravelSettings\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laraeast\\LaravelSettings\\Tests\\": "tests/"
+            "KamalSroor\\LaravelSettings\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -33,10 +33,10 @@
         },
         "laravel": {
             "providers": [
-                "Laraeast\\LaravelSettings\\Providers\\SettingsServiceProvider"
+                "KamalSroor\\LaravelSettings\\Providers\\SettingsServiceProvider"
             ],
             "aliases": {
-                "Settings": "Laraeast\\LaravelSettings\\Facades\\Settings"
+                "Settings": "KamalSroor\\LaravelSettings\\Facades\\Settings"
             }
         }
     }

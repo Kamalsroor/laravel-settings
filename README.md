@@ -26,13 +26,13 @@
     service provider:
  
     ```php
-    Laraeast\LaravelSettings\Providers\SettingsServiceProvider::class,
+    KamalSroor\LaravelSettings\Providers\SettingsServiceProvider::class,
     ```
  
     class aliases:
  
     ```php
-    'Settings' => Laraeast\LaravelSettings\Facades\Settings::class,
+    'Settings' => KamalSroor\LaravelSettings\Facades\Settings::class,
     ```
  
 1. Create settings table for `database` driver
@@ -125,13 +125,13 @@ $this->app['settings.manager']->extend('file', function () {
 	return new SettingsFileDriverHandler();
 });
 ```
-> Note : your custom driver `SettingsFileDriverHandler` should implements `Laraeast\LaravelSettings\Contracts\SettingsStore` contract
+> Note : your custom driver `SettingsFileDriverHandler` should implements `KamalSroor\LaravelSettings\Contracts\SettingsStore` contract
 ```
 <?php
 
 namespace App\LaravelSettings;
 
-use Laraeast\LaravelSettings\Contracts\SettingsStore;
+use KamalSroor\LaravelSettings\Contracts\SettingsStore;
 
 class SettingsFileDriverHandler implements SettingsStore
 {

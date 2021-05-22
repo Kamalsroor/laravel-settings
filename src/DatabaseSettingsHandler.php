@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraeast\LaravelSettings;
+namespace KamalSroor\LaravelSettings;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Cache;
-use Laraeast\LaravelSettings\Contracts\SettingsStore;
-use Laraeast\LaravelSettings\Models\Setting;
+use KamalSroor\LaravelSettings\Contracts\SettingsStore;
+use KamalSroor\LaravelSettings\Models\Setting;
 
 class DatabaseSettingsHandler implements SettingsStore
 {
@@ -45,7 +45,7 @@ class DatabaseSettingsHandler implements SettingsStore
      * @param $key
      * @param null $value
      *
-     * @return \Laraeast\LaravelSettings\Models\Setting
+     * @return \KamalSroor\LaravelSettings\Models\Setting
      */
     public function set($key, $value = null)
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraeast\LaravelSettings\Providers;
+namespace KamalSroor\LaravelSettings\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Laraeast\LaravelSettings\Console\SettingsTableCommand;
-use Laraeast\LaravelSettings\SettingsManager;
+use KamalSroor\LaravelSettings\Console\SettingsTableCommand;
+use KamalSroor\LaravelSettings\SettingsManager;
 
 class SettingsServiceProvider extends ServiceProvider
 {
