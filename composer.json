@@ -1,11 +1,11 @@
 {
-    "name": "laraeast/laravel-settings",
+    "name": "kamalsroor/laravel-settings",
     "description": "Persistent key-value storage for Laravel",
     "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ahmed Fathy",
+            "name": "Kamal Sroor",
             "email": "aliraqi.dev@gmail.com"
         }
     ],
@@ -14,7 +14,8 @@
     },
     "require-dev": {
         "orchestra/testbench": "~3.0|~4.0|~5.0|~6.0",
-        "mockery/mockery": "^1.4"
+        "mockery/mockery": "^1.4",
+        "ahmed-aliraqi/laravel-media-uploader": "^6.0"
     },
     "autoload": {
         "psr-4": {
